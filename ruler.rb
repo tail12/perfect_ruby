@@ -1,12 +1,9 @@
 class Ruler
   attr_accessor :length
 
-  def initialize(length)
-    # いわゆるコンストラクタ
-    @length = length
+  def self.pair
+    [Ruler.new, Ruler.new]
   end
 end
 
-
-ruler = Ruler.new(30)
-puts ruler.length
+puts Ruler.pair
