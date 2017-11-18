@@ -4,6 +4,6 @@ def hello(names)
   end
 end
 
-rubies = ['MRI', 'jruby', 'rubinius']
+rubies = ['Ito', 'Ozaki', 'Sahara']
 
 hello(rubies)
